@@ -5,6 +5,6 @@
 2. []()
 3. []()
  
- [>>](@next)
+ [<<](@previous) [>>](@next)
 */
 //: [Back](TableOfContents)

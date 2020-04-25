@@ -2,10 +2,12 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='TableOfContents'/>
+        <page name='Common'/>
         <page name='DFS'/>
         <page name='Tree'/>
         <page name='Template'/>
         <page name='200'/>
         <page name='100'/>
+        <page name='1'/>
     </pages>
 </playground>
