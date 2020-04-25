@@ -30,8 +30,9 @@ class Solution
             {
                 if char == "1" && visitedGrid[i][j] == false //為何沒去過的陸地就+1？不是要以是否相連來判斷嗎？
                 {
+                    print("=========加一=========")
                     numberOfIsland += 1
-                    travel(grid, &visitedGrid, i, j)
+                    travel(grid, &visitedGrid, i, j)//因為這裡開始會把所有上下左右都標記為已拜訪
                 }
             }
         }
@@ -41,15 +42,21 @@ class Solution
     func travel(_ grid: [[Character]], _ visited: inout [[Bool]], _ i: Int, _ j: Int)
     {
         runCount += 1
+        print("第\(runCount)次執行\(i)行\(j)列")
         
         if i >= 0 && j >= 0 && i < grid.count && j < grid[0].count //不因上下左右移動而超出範圍
         && grid[i][j] == "1" && visited[i][j] == false //而且是沒去過的陸地
         {
+            print("移動")
             visited[i][j] = true
             travel(grid, &visited, i+1, j)
             travel(grid, &visited, i-1, j)
             travel(grid, &visited, i, j+1)
             travel(grid, &visited, i, j-1)
+        }
+        else
+        {
+            print("不移動")
         }
     }
 }
