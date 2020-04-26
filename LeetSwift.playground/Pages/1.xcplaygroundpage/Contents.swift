@@ -53,4 +53,4 @@ let ex3 = sol.twoSum([3, 3], 6) //兩個元素相同
 let ex4 = sol.twoSum([3], 5)
 let ex5 = sol.twoSum([1, 1, 2, 3, 5, 8, 13], 21)
 
-//: [Back](Common)
+//: [Back](Array)
