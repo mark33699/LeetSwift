@@ -11,9 +11,8 @@ import Foundation
 
 class Solution
 {
-    
+    //<#請在此區域寫code#>
 }
-<#請在此區域寫code#>
 
 //***************驗證***************//
 
