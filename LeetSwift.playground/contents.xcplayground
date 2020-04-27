@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw'>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='TableOfContents'/>
         <page name='Array'/>
+        <page name='Math'/>
         <page name='DFS'/>
         <page name='Tree'/>
         <page name='Template'/>
@@ -11,5 +12,6 @@
         <page name='1'/>
         <page name='18'/>
         <page name='136'/>
+        <page name='13'/>
     </pages>
 </playground>
