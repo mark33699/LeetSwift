@@ -2,6 +2,7 @@
 /*:
  ###### Table of Contents
 - [Array](Array)
+- [String](String)
 - [Math](Math)
 - [DFS](DFS)
 - [Tree](Tree)
